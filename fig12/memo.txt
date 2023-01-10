@@ -1,0 +1,5 @@
+The clustering coefficient(C) and the average distance between nodes(L) for each model is named "${topology}_${statistics}.dat"
+
+In all the files, the topology is composed of sw and ke, which express the SW and KE models, and the statistics are composed of C and L.
+
+The first column in the files is the rewiring probability for the SW model or the probability that adjusts the clustering coefficient for the KE model. The second column is C or L.

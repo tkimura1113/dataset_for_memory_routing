@@ -1,0 +1,11 @@
+In all the files, each column corresponds to the following statistics:
+
+1. the number of generating packets,
+2. an average packet transmission completion rate,
+3. an unbiased standard deviation,
+4. the minimum value of the 95% confidence interval,
+5. the maximum value of the 95% confidence interval.
+
+ba stands for the BA model, and file names of theta_number and L_number express the values of theta and L for the memory-pauto method.
+
+

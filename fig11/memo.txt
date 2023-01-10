@@ -1,0 +1,13 @@
+The transmission completion rates for the SW model are named "sw_${method}_${rewiring_probability}_A.dat"
+
+In all the files, sw stands for the SW model. The method is composed of the shortest path routing(sp), shortest path routing random(spr), memory routing(memory), memory-pfix(memory_p), and memory-pauto(memory_auto). Each column in the files expresses the following statistics:
+
+1. the number of generating packets,
+2. an average packet transmission completion rate,
+3. an unbiased standard deviation,
+4. the minimum value of the 95% confidence interval,
+5. the maximum value of the 95% confidence interval.
+
+
+
+

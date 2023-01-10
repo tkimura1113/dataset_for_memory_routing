@@ -1,0 +1,15 @@
+The average hops of arriving packets(H) and the average arrival times of arriving packets(T) by each method are named by "${topology}_${method}_${statistics}.dat"
+
+In all the files, the topology is composed of ba, sw, and ke, which stand for the BA, SW, and KE models. The method is composed of the shortest path routing(sp), shortest path routing random(spr), memory routing(memory), memory-pfix(memory_p),memory-pauto(memory_auto), and effective routing(er). The statistics are composed of the average hops of arriving packets(H) and the average arrival times of arriving packets(T).
+
+Each column in the files expresses the following statistics:
+
+1. the number of generating packets,
+2. H or T,
+3. an unbiased standard deviation,
+4. the minimum value of the 95% confidence interval,
+5. the maximum value of the 95% confidence interval.
+
+
+
+

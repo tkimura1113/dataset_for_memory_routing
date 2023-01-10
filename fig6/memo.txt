@@ -1,0 +1,8 @@
+In all the files, each column corresponds to the following statistics:
+
+1. the number of iterations for calculating the transmitting probabilities,
+2. the maximum value of R, where the transmission completion rate is lower than or equal to 0.9.
+
+ba, sw, and ke in the file stand for the BA, SW, and KE models.
+
+For example, ba_memory_p_con_A.dat is the maximum value of R, where the transmission completion rate is lower than or equal to 0.9 of the memory-pfix method for the BA model.
