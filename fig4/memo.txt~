@@ -1,0 +1,12 @@
+In all the files, each column corresponds to following statistics:
+
+1. the number of iterations,
+2. the transmitting probability.
+
+ba stands for the model and file names stand for the transmitting probabiities of 
+h_h --- high-high degrees
+h_l --- high-low degrees,
+l_h --- low-high degrees,
+and l_l --- low-low degrees.
+
+For example, ba_tp_h_h.dat is the transmitting probabily of edge between high degree nodes.

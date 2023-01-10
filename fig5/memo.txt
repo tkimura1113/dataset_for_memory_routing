@@ -1,0 +1,12 @@
+In all the files, each column corresponds to following statistics:
+
+1. the number of generating packets,
+2. an average packet transmission completion rate,
+3. an unbiased standard deviation,
+4. the minimum value of the 95% confidence interval,
+5. the maximum value of the 95% confidence interval.
+
+ba, sw, and ke in the file stand for the BA, SW, and KE models, and memory and memory_p are the results by the memory and memory-pfix methods.
+The numbers express the number of iterations for calculating the transmitting probabilities for the memory-pfix method.
+
+For example, ba_memory_p_5_A.dat is the average packet transmission completion rate of the memory-pfix method for the BA model whose transmitting probabilities are determined by the first five iterations.

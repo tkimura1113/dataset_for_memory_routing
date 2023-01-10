@@ -1,0 +1,11 @@
+The transmission completion rate of packets by each model is named "${topology}_${method}_A.dat"
+
+In all the files, the topology is composed of ba, sw, and ke, which stand for the BA, SW, and KE models. The method is composed of the shortest path routing(sp), shortest path routing random(spr), memory, and effective routing(er). 
+
+Each column in the files corresponds to the following statistics:
+
+1. the number of generating packets,
+2. an average packet transmission completion rate,
+3. an unbiased standard deviation,
+4. the minimum value of the 95% confidence interval,
+5. the maximum value of the 95% confidence interval.

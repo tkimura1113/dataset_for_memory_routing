@@ -1,0 +1,14 @@
+In all the files, each column corresponds to following statistics:
+
+1. the number of generating packets,
+2. an average packet transmission completion rate,
+3. an unbiased standard deviation,
+4. the minimum value of the 95% confidence interval,
+5. the maximum value of the 95% confidence interval.
+
+ba, sw, and ke stand for the BA, SW, and KE models, respectively.
+deg and bet stand for the packet transmission and storage performance are composed of the degree or node betweenness centralities, respectively.
+
+For example, ba_deg_A is the average packet transmission completion rate of the SP method for the BA model whose packet transmission and storage performance are composed of the degree centrality.
+
+
