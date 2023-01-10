@@ -1,0 +1,2 @@
+In all the files, the first column is the normalized existing packets, and the second is the normalized node betweenness named "bet", and the normalized degree named "deg". ba, sw, and ke stand for the BA, SW, and KE models, respectively.
+
