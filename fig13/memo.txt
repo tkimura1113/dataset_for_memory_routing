@@ -1,0 +1,9 @@
+The transmission completion rates for the KE model are named "ke_${method}_${probability}_A.dat"
+
+In all the files, the ke stands for the KE model, and the method is composed of the shortest path routing(sp), shortest path routing random(spr), memory routing(memory), memory-pfix(memory_p), and memory-pauto(memory_auto). The probability is a value of probability that adjusts the clustering coefficient for the KE model. Each column in the files expresses the following statistics:
+
+1. the number of generating packets,
+2. an average packet transmission completion rate,
+3. an unbiased standard deviation,
+4. the minimum value of the 95% confidence interval,
+5. the maximum value of the 95% confidence interval.
