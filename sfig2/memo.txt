@@ -1,0 +1,10 @@
+The ratio of signals by the memory-pauto method is named "${topology}_memory_auto_S.dat"
+
+In all the files, the topology is composed of ba, sw, and ke, which stand for the BA, SW, and KE models, and each column expresses the following statistics:
+
+1. the number of generating packets,
+2. the ratio of signals,
+3. an unbiased standard deviation,
+4. the minimum value of the 95% confidence interval,
+5. the maximum value of the 95% confidence interval.
+
